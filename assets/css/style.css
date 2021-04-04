@@ -76,7 +76,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -91,19 +91,14 @@ p {
     color: #ffffff; 
 }
 
-.maxHeight200 { /* Repetitive code being moved to Atomic from OOCSS */
+.mainStyling img {
     max-height: 200px;
 }
 
-.btmMgn20 {
+.mainStyling h2 {
     margin-bottom: 20px;
-}
-
-.font36px {
     font-size: 36px;
 }
-
-/* Side Bar Widget Styling */
 
 .benefits {
     margin-right: 20px;
@@ -116,173 +111,21 @@ p {
     background-color: #2589bd;
 }
 
-.mgnBtm32 { /* Repetitive code being moved to Atomic from OOCSS */
-    margin-bottom: 32px;
-}
-
-.clrWhite {
-    color: #ffffff;
-}
-
-.mgnBtm10 {
-    margin-bottom: 10px;
-}
-
-.txtAlignCtr {
-    text-align: center;
-}
-
-.dispBlk {
-    display: block;
-}
-
-.mgn10Auto {
-    margin: 10px auto;
-}
-
-.maxWidth150 {
-    max-width: 150px;
-}
-
-/* Footer Styling */
-
-.pdg30 { /* Repetitive code being moved to Atomic from OOCSS */
-    padding: 30px;
-}
-
-.clearBoth {
-    clear: both;
-}
-
-.fontTreb {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.txtAlignCtr {
-    text-align: center;
-}
-
-.fontSize24 {
-    font-size: 24px;
-}
-
-/* Old CSS
-
-/* Consolidated under .mainStyling
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Consolidated under .maxHeight200
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Consolidated under .btmMgn20 and .font36px
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Consolidated under .mgnBtm32 and .clrWhite
-
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Consolidated under .mgnBtm10 and txtAlignCtr
-
-.benefit-lead h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Consolidated under .dispBlk, .mgn10Auto, and .maxWidth150
-
-.benefit-lead img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Replaced OOCSS with Atomic
 
 .footer {
     padding: 30px;
@@ -294,5 +137,3 @@ p {
 .footer h4 {
     font-size: 20px;
 }
-
-*/
