@@ -15,8 +15,13 @@ This browser application allows users to read about services that the fictional 
 
 # Setup/Installation Requirements
 
+<<<<<<< HEAD
+Clone this repository to VS code
+Open /Users/mrao/Code/HW-Code-Refactor/index.html in your browser
+=======
 Clone this repository to VS code. Open /Users/mrao/Code/HW-Code-Refactor/index.html in your browser.
 
+>>>>>>> 86e2662089d0db1e4a8e5eb2269df58526abac5b
 Alternatively, the webpage can be accessed at https://jmrao002.github.io/HW-Code-Refactor/
 
 # Known Bugs
